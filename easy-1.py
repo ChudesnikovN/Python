@@ -4,7 +4,6 @@ __author__ = 'Чудесников Никита'
 
 print ('Enter number')
 numb = input ()
-s1 = str (numb)
-for ch in s1:
+for ch in numb:
 	print(ch)
 input()
