@@ -17,3 +17,4 @@ try:
         os.rmdir("dir_" + str(i))
 except:
     print("Уже удалена")
+	
