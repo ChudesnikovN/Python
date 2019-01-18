@@ -21,4 +21,3 @@ def create_directory(dirname):
 	import os
 	os.mkdir(dirname)
 	print('Успешно созадал папку ' + dirname)
-	
