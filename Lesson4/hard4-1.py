@@ -12,5 +12,5 @@ matrix_rotate = []
 #                  [0, 4, 4],
 #                  [8, 1, 2]]
 
-matrix_rotate = [[matrix [i][j] for i in range(0,3)] for j in range(0,3)]
+matrix_rotate = [matrix [i][j] for i in range(0,len(matrix)) for j in range(0,len(matrix[i]))]
 print (matrix_rotate)
